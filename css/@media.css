@@ -1,0 +1,1014 @@
+ @media screen and (max-width: 991px){
+ 	.container-fluid{
+	max-width: 768px;
+    }
+ 	.header{
+ 		background: url(../img/bg_top_768.png) no-repeat;
+ 		background-size: cover;
+ 		height: 100%;
+ 	}
+ 	.header_top .container-fluid{
+ 		padding-top: 20px;
+ 	}
+ 	.header-bottom{
+ 		margin-top: 35px;
+ 	}
+ 	.shopping{
+ 		display: block;
+ 	}
+ 	.shopping_wrap{
+ 		display: flex;
+ 		flex-direction: row;
+ 		justify-content: flex-end;
+ 		align-items: center;
+ 	}
+ 	.shopping i{
+ 		display: inline-block;
+ 		height: 25px;
+ 		width: 25px;
+ 		font-size: 25px;
+ 		margin-right: 15px;
+ 	}
+ 	.shopping i:active{
+ 		color: #89E737;
+ 	}
+ 	.burger{
+ 		display: inline-block;
+ 		width: 25px;
+ 		height: 25px;
+ 		background: url(../img/burger.png) 0px 10px no-repeat;
+ 	}
+ 	.burger:active{
+ 		background: url(../img/burger.png) 0px -15px no-repeat;
+ 	}
+ 	.slogan{
+ 		margin-right: 15px;
+ 	}
+ 	.hidden{
+ 		order: 13;
+ 	}
+ 	.picture_item{
+ 		height: 770px;
+ 		top: -71px;
+ 		left: -222px;
+ 	}
+ 	.header-bottom h2{
+ 		padding-left: 50px;
+ 		font-size: 30px;
+ 		line-height: 37px;
+ 	}
+	.discount{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+ 	.eur78{
+ 		margin-right: 0px;
+ 		margin-right: 35px;
+ 	}
+ 	.eur39{
+ 		margin-right: 0px;
+ 	}
+ 	.header-bottom .img{
+ 		margin-top: 20px;
+ 		background: url(../img/pills_top_768.png) 70px 0px no-repeat;
+ 	}
+ 	.order_item{
+ 		top: -255px;
+ 		margin-bottom: -150px;
+ 	}
+ 	.description{
+ 		margin-top: 65px;
+ 		margin-bottom: 65px;
+ 		padding-right: 15px;
+ 		padding-top: 25px;
+ 	}
+ 	.description li{
+ 		margin-left: 5px;
+ 		height: 85px;
+ 	}
+ 	.description li:after {
+ 		width: 220px;
+ 		left: 65px;
+ 	}
+ 	.description li img{
+ 		height: 40px;
+ 		width: 40px;
+ 	}
+ 	.description li span{
+ 		font-size: 14px;
+ 	}
+ 	.order_form .finish_wrap{
+ 		padding-left: 10px;
+ 	}
+ 	h3{
+ 		font-size: 25px;
+ 		letter-spacing: 2px;
+ 	}
+ 	.order_form .finish{
+ 		margin-bottom: 25px;
+ 	}
+ 	.order_form .clock{
+ 		padding-left: 0px;
+ 	}
+ 	.countdown-container{
+ 		margin-top: 40px;
+ 	}
+ 	.order_form .clock .countdown-container span.time{
+ 		width: 40px;
+ 		height: 40px;
+ 		line-height: 42px;
+ 		background: url(../img/clock_bg_768.png) no-repeat;
+ 	}
+ 	.order_form .clock span{
+ 		width: 40px;
+ 		margin-top: 0px;
+ 	}
+ 	.select_holder select{
+ 		width: 315px;
+ 		height: 45px;
+ 	}
+ 	.order_form input{
+ 		width: 315px;
+ 		height: 45px;
+ 	}
+ 	.select_holder:before{
+ 		height: 43px;
+ 	}
+ 	.order_form .form_item{
+ 		margin-top: 5px;
+ 	}
+ 	.order_form .save{
+ 		top: 535px;
+ 		left: 110px;
+ 	}
+ 	.intoxication{
+ 		position: relative;
+ 		background: #F4F7FB;
+ 	}
+ 	.intoxication:before{
+ 		content: '';
+ 		position: absolute;
+ 		height: 150px;
+ 		width: 200px;
+	    top: -155px;
+	    left: -30px;
+		background: url(../img/bg_odject1_768.png) -112px 0px no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+ 	}
+ 	.intoxication .col-sm-4 div{
+ 		width: 255px;
+ 		height: 255px;
+ 		-webkit-background-size: cover;
+ 		background-size: cover;
+ 	}
+ 	.intoxication .col-sm-4{
+ 		height: 256px;
+ 	}
+ 	.intoxication p{
+ 		font-size: 26px;
+ 		margin-top: 47px;
+ 		margin-left: 35px;
+ 		margin-right: 0px;
+ 		line-height: 30px;
+ 	}
+ 	.intoxication .col-sm-4 div span{
+ 		font-size: 18px;
+ 		margin-left: 20px;
+ 		margin-bottom: 20px;
+ 	}
+ 	.symptoms{
+ 		position: relative;
+ 		background: #F4F7FB;
+ 	}
+ 	.symptoms:before{
+ 		content: '';
+ 		position: absolute;
+ 		height: 150px;
+ 		width: 200px;
+ 		top: -140px;
+ 		left: 580px;
+ 		background: url(../img/bg_object2_768.png) 0px -56px no-repeat;
+ 	}
+ 	.symptoms .row:before{
+ 		content: '';
+ 		position: absolute;
+ 		height: 150px;
+ 		width: 200px;
+ 		top: 585px;
+ 		left: -75px;
+ 		z-index: 1;
+ 		background: url(../img/bg_object2_768.png) 0px -100px no-repeat;
+ 	}
+ 	.symptoms .row{
+ 		box-shadow: none;
+ 		margin: 0px;
+ 		z-index: 9;
+ 	}
+ 	.symptoms_right{
+ 		min-width: 384px;
+ 	}
+ 	.symptoms .bg{
+ 		width: 100%;
+ 		background: #fff url(../img/left_768.png) no-repeat;
+ 	}
+ 	.symptoms_left{
+ 		position: relative;
+ 		max-width: 354px;
+ 		padding: 0px;
+ 		left: 0;
+ 	}
+ 	.symptoms .bg span{
+ 		font-size: 26px;
+ 		line-height: 30px;
+ 		height: 60px;
+ 		width: 180px;
+ 		margin-left: 160px;
+ 	}
+ 	.symploms_left_item h4{
+ 		font-size: 26px;
+ 		line-height: 30px;
+ 	}
+ 	.how_work{
+ 		position: relative;
+ 		background: #F4F7FB;
+ 	}
+ 	.how_work:before{
+ 		content: '';
+ 		position: absolute;
+ 		height: 150px;
+ 		width: 200px;
+ 		top: 460px;
+ 		left: 83%;
+ 		background: url(../img/bg_object4_768.png) 0px 0px no-repeat;
+ 	}
+ 	.how_work_left img{
+ 		margin-left: -70px;
+ 		margin-top: 10px;
+ 	}
+ 	.how_work_right{
+ 		padding-right: 30px;
+ 	}
+ 	.how_work_right h4{
+ 		font-size: 26px;
+ 		margin-top: 15px;
+ 	}
+ 	.how_work_right p{
+ 		font-size: 16px;
+ 	}
+ 	.expert{
+ 		background: #F4F7FB;
+ 	}
+ 	.expert .row{
+ 		box-shadow: none;
+ 		margin: 0px;
+ 	}
+ 	.expert_left{
+ 		padding-left: 30px;
+ 		padding-bottom: 45px;
+ 	}
+ 	.expert_left h4{
+ 		margin-top: 35px;
+ 		font-size: 26px;
+ 		padding-bottom: 30px;
+ 	}
+ 	.expert_left p{
+ 		margin-bottom: 20px;
+ 		font-size: 15px;
+ 		line-height: 22px;
+ 	}
+ 	.expert_roght .bg{
+ 		background: url(../img/right_768.png) 20px 0px no-repeat;
+ 	}
+ 	.effect{
+ 		background: #F4F7FB;
+ 		padding-top: 55px;
+ 	}
+ 	.effect_left{
+ 		min-width: 100%;
+ 	}
+ 	.effect_left img{
+ 		display: none;
+ 	}
+ 	.effect_left h4{
+ 		font-size: 26px;
+ 		line-height: 30px;
+ 		margin: 0px;
+ 		width: 400px;
+ 		margin-bottom: 30px;
+ 	}
+ 	.component2, .component3, .component5{
+ 		margin-left: 22px;
+ 	}
+ 	.effect_right .col-sm-4{
+ 		max-width: 230px;
+ 	}
+ 	.effect_right img{
+ 		width: 230px;
+ 	}
+ 	.effect_right{
+ 		position: relative;
+ 		min-width: 100%;
+ 	}
+ 	.effect_right:before{
+ 		content: '';
+ 		position: absolute;
+ 		height: 150px;
+ 		width: 230px;
+ 		top: 83%;
+ 		left: 85%;
+ 		background: url(../img/bg_odject1_768.png) 0px 0px no-repeat;
+ 	}
+ 	.effect_right .row{
+ 		margin-left: 0px;
+ 	}
+ 	.effect_right .bold{
+ 		margin-top: 15px;
+ 	}
+ 	.effect_img{
+ 		margin-left: 22px;
+ 	}
+ 	.effect_right .effect_img{
+ 		position: relative;
+ 	}
+ 	.effect_right .effect_img:before{
+ 		content: '';
+ 		position: absolute;
+ 		height: 400px;
+ 		width: 350px;
+ 		background: url(../img/tube_component.png) -15px 0px no-repeat;
+ 	}
+ 	.comments{
+ 		background: #F4F7FB;
+ 		margin-bottom: 0px;
+ 	}
+ 	.comments .row{
+ 		box-shadow: none;
+ 		margin: 0px;
+ 	}
+ 	.comments h4{
+ 		font-size: 26px;
+ 		margin-top: 40px;
+ 		margin-bottom: 40px;
+ 	}
+ 	.comment1{
+ 		margin-left: 0px;
+ 	}
+ 	.comments_top_text span{
+ 		margin-top: 35px;
+ 	}
+ 	.comments_top_text p{
+ 		padding-right: 0px;
+ 		font-size: 16px;
+ 	}
+ 	.comments_center_text span{
+ 		margin-top: 15px;
+ 		padding-left: 15px;
+ 	}
+ 	.comments_center_text p{
+ 		padding-left: 15px;
+ 		font-size: 16px;
+ 	}
+ 	.comment2{
+ 		margin-left: 0px;
+ 	}
+ 	.comment3{
+ 		margin-left: 0px;
+ 	}
+ 	.comments_bottom_text p{
+ 		padding-right: 15px;
+ 		font-size: 16px;
+ 	}
+ 	.comments .button{
+ 		margin-bottom: 55px;
+ 	}
+ 	.accept{
+ 		position: relative;
+ 		background: #F4F7FB;
+ 		padding-bottom: 245px;
+ 	}
+ 	.accept:before{
+ 		content: '';
+ 		position: absolute;
+ 		height: 325px;
+ 		width: 200px;
+ 		top: 30px;
+ 		left: 0px;
+ 		background: url(../img/bg_object5_768.png) 0px 0px no-repeat;
+ 	}
+ 	.accept .row{
+ 		margin: 0px;
+ 	}
+ 	.accept h4{
+ 		font-size: 26px;
+ 		margin-top: 80px;
+ 		margin-bottom: 50px;
+ 	}
+ 	.accept_left{
+ 		padding-left: 0px;
+ 	}
+ 	.accept_left .img{
+ 		margin: auto;
+ 		margin-bottom: 45px;
+ 	}
+ 	.accept_right{
+ 		padding-right: 0px;
+ 	}
+ 	.accept span{
+ 		margin: auto;
+ 	}
+ 	.how_stitch{
+ 		background: #F4F7FB;
+ 		position: relative;
+ 		top: -130px;
+ 	}
+ 	.how_stitch .row{
+ 		box-shadow: none;
+ 		margin: 0px;
+ 	}
+ 	.how_stitch_left{
+ 		padding-left: 25px;
+ 	}
+ 	.how_stitch_left h4{
+ 		font-size: 24px;
+ 		line-height: 30px;
+ 		padding-left: 60px;
+ 		margin-bottom: 40px;
+ 	}
+ 	.how_stitch_left ul{
+ 		margin-bottom: 80px;
+ 	}
+ 	.how_stitch-right{
+ 	   background: url(../img/order_how_to_768.png) no-repeat 5px 0px;
+ 	}
+ 	.footer{
+ 		padding-bottom: 100px;
+ 		background: url(../img/bg_bottom_768.png) no-repeat;
+ 		background-size: 100%;
+ 	}
+ 	.footer_top{
+ 		padding-top: 260px;
+ 	}
+ 	.footer_top .h1{
+ 		font-size: 55px;
+ 		margin-top: 0px;
+ 		padding-left: 40px;
+ 	}
+ 	.footer_top .h1 img{
+ 		display: inline-block;
+ 		margin-left: 10px;
+ 	}
+ 	.footer_top h2{
+		font-size: 32px;
+		line-height: 40px;
+		padding-left: 40px;
+		margin-bottom: 25px;
+ 	}
+ 	.discount{
+ 		margin-top: 0px;
+ 	}
+ 	.footer .eur78{
+ 		margin-right: 20px;
+ 	}
+ 	.footer_top_left .picture_item{
+ 		height: 700px;
+ 		left: -195px;
+ 	}
+ 	.footer_top .img{
+ 		height: 350px;
+ 		background: url(../img/pills_top_768.png) 60px 0px no-repeat;
+ 	}
+ 	.footer_bottom{
+ 		position: relative;
+ 	}
+ 	.footer_bottom:before{
+		content: '';
+		position: absolute;
+		height: 150px;
+		width: 250px;
+		top: 293px;
+		left: -84px;
+		background: url(../img/bg_odject1_768.png) -44px 0px no-repeat;
+	}
+ 	.footer_bottom .order_item{
+ 		top: -170px;
+ 	}
+ }
+
+  @media screen and (max-width: 575px){
+  	body .wrapper .container-fluid{
+	max-width: 320px;
+    }
+    .container-fluid .row{
+    	margin: 0px;
+    }
+    .header{
+    	background: #F4F7FB url(../img/bg_top_320.png) 0px 0px no-repeat;
+    	background-size: 100%;
+    	height: 1650px;
+    }
+    .header .picture_item{
+    	display: none;
+    }
+    .header .picture{
+    	order: 13;
+    }
+	.name{
+		order: 13;
+		padding: 0px;
+	}
+	.name h1{
+		font-size: 40px;
+		margin-top: 30px;
+	}
+	.shopping_wrap{
+		padding: 0px;
+	}
+	.slogan{
+		margin-right: 132px;
+	}
+	.hidden{
+		display: none;
+	}
+	.header-bottom{
+		position: relative;
+		margin-top: 10px;
+	}
+	.header-bottom:before{
+		content:'';
+		position: absolute;
+		width: 574px;
+		height: 670px;
+		top: 850px;
+		left: -110px;
+		background: url(../img/girl_top.png) 0px 0px no-repeat;
+		background-size: 450px;
+	}
+	.header-bottom .right{
+		padding: 0px;
+	}
+	.header-bottom h2{
+		font-size: 20px;
+		line-height: 22px;
+		padding-left: 0px;
+		letter-spacing: 1px;
+		margin-bottom: 40px;
+	}
+	.discount{
+		position: relative;
+		display: block;
+		padding: 0px;
+	}
+	.discount span{
+		display: block;
+		text-align: left;
+		line-height: 40px;
+	}
+	.eur78:before{
+		top: 7px;
+	}
+	.discount:before{
+		content: '';
+		position: absolute;
+		width: 80px;
+		height: 170px;
+		top: -16px;
+		left: 195px;
+		background: url(../img/pills_top_320.png) -14px 0px no-repeat;
+	}
+	.header-bottom .img{
+		display: none;
+	}
+	.plus{
+		display: block;
+		margin-top: 15px;
+	}
+	.plus li{
+		margin-bottom: 5px;
+	}
+	.plus li img{
+		margin-right: 5px;
+	}
+	.description{
+		position: relative;
+		order: 13;
+		margin-top: -220px;
+		box-shadow: none;
+	}
+	.description:before{
+		content: '';
+		position: absolute;
+		width: 400px;
+		height: 350px;
+		top: -400px;
+		left: -20px;
+		background: url(../img/pillsand_top_320.png) 0px 0px no-repeat;
+	}
+	.order_form{
+		padding: 0px;
+	}
+	h3{
+		font-size: 28px;
+		text-align: center;
+		margin-top: 25px;
+	}
+	.order_form .finish{
+		font-size: 16px;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.countdown-container{
+		margin-top: 15px;
+		text-align: center;
+	}
+	.clock{
+		text-align: center;
+	}
+	.order_form{
+		top: -955px;
+	}
+	.order_form .clock span{
+		margin-right: 7px;
+	}
+	.order_form .clock span.sec{
+		margin-right: 0px;
+	}
+	.order_form .clock span.time{
+		margin-bottom: 0px;
+	}
+	.select_holder select{
+		width: 290px;
+		height: 40px;
+	}
+	.order_form input{
+		width: 290px;
+		height: 40px;
+	}
+	.order_form .row{
+		margin-left: -15px;
+		margin-right: -15px;
+		background: #fff;
+	}
+	.select_holder:before{
+		height: 38px;
+	}
+	.order_form a{
+		margin-top: 30px;
+	}
+	.order_form .still{
+		margin-bottom: 70px;
+	}
+	.order_form .save{
+		top: 515px;
+		left: 30px;
+	}
+	.container-fluid .row{
+		box-shadow: none;
+	}
+	.intoxication{
+		margin-top: -115px;
+		padding-bottom: 50px;
+	}
+	.intoxication .container-fluid .row{
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+	.intoxication p{
+		font-size: 21px;
+		line-height: 30px;
+		margin: 0px;
+		margin-left: 15px;
+	}
+	.intoxication div.col-12{
+		position: relative;	
+		height: 110px;
+		background-color: #F4F7FB;
+	}
+	.intoxication div.col-12:before{
+		content: '';
+		position: absolute;
+		height: 150px;
+		width: 316px;
+		top: -40px;
+		left: 250px;
+		background: url(../img/bg_odject1_768.png) 0px 0px no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.intoxication .col-sm-4 div{
+		width: 159px;
+		height: 159px;
+	}
+	.intoxication .col-sm-4{
+		height: 160px;
+	}
+	.intoxication .col-sm-4 div span{
+		font-size: 16px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+	.intoxication:before{
+		content: '';
+		position: absolute;
+		height: 150px;
+		width: 200px;
+		top: 520px;
+		left: 245px;
+		background: url(../img/bg_object3.png) 0px 0px no-repeat;
+	}
+	.symptoms_left{
+		order: 1;
+	}
+	.symptoms_right{
+		order: 13;
+	}
+	.symploms_left_item{
+		margin-left: 0px;
+		width: 100%;
+	}
+	.symploms_left_item h4{
+		margin-top: 45px;
+		padding-left: 25px;
+		padding-right: 5px;
+	}
+	.symploms_left_item ul{
+		padding-left: 15px;
+		margin-bottom: 30px;
+	}
+	.symploms_left_item li img{
+		margin-right: 10px;
+	}
+	.bg320{
+		display: block;
+		height: 365px;
+		background: url(../img/left_320.png) 0px 0px no-repeat;
+	}
+	.symptoms .bg{
+		display: none;
+	}
+	.symploms_left_item .biger{
+		margin-top: 20px;
+	}
+	.symploms_left_item .button{
+		margin-bottom: 40px;
+		margin-top: 30px;
+	}
+	.symptoms .row:before{
+		display: none;
+	}
+	.how_work{
+		padding-top: 50px;
+	}
+	.how_work_left img{
+		display: none;
+	}
+	.how_work_right{
+		padding: 0px;
+	}
+	.how_work_right h4{
+		position: relative;
+		font-size: 21px;
+		font-weight: 900;
+		margin-bottom: 300px;
+		text-align: center;
+	}
+	.how_work_right h4:before{
+		content: '';
+		position: absolute;
+		height: 300px;
+		width: 290px;
+		top: 45px;
+		left: 0px;
+		background: url(../img/tube_how_worck.png) 0px 0px no-repeat;
+		background-size: 250px;
+	}
+	.how_work_right p{
+		font-size: 15px;
+	}
+	.how_work:before{
+		top: 650px;
+		left: 67%;
+	}
+	.expert{
+		padding-top: 30px;
+	}
+	.expert_left{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.expert_left h4{
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.expert_hidden{
+		display: none;
+	}
+	.expert_roght{
+		padding: 0px;
+	}
+	.expert_roght .bg{
+		height: 195px;
+		background: url(../img/right_320.png) 0px 0px no-repeat;
+	}
+	.description li:after{
+		width: 190px;
+	}
+	.effect_left{
+		padding: 0px;
+	}
+	.effect_right{
+		padding: 0px;
+	}
+	.effect_left h4{
+		width: 210px;
+		position: relative;
+		letter-spacing: -1.2px;
+	}
+	.effect_left h4:before{
+		content: '';
+		position: absolute;
+		height: 170px;
+		width: 120px;
+		top: -3px;
+		left: 190px;
+		background: url(../img/tube_component.png) 0px 0px no-repeat;
+		background-size: 90px;
+	}
+	.effect_right .col-sm-4{
+		margin: 0px;
+		margin: auto;
+	}
+	.effect_right .light{
+		margin-bottom: 30px;
+		font-size: 14px;
+	}
+	.effect_right .bold{
+		margin-bottom: 10px;
+	}
+	.effect_right:before{
+		width: 290px;
+		top: 98%;
+		left: -50%;
+	}
+	.effect_right .effect_img:before{
+		display: none;
+	}
+	.comments{
+		padding-top: 125px;
+	}
+	.comments .container-fluid .row{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.comments h4{
+		font-size: 21px;
+		font-weight: 900;
+		margin-bottom: 15px;
+	}
+	.comments_top_text span{
+		margin-top: 0px;
+	}
+	.hidden_phone{
+		display: none;
+	}
+	.for_phone{
+		display: block;
+	}
+	.comments_center_text p{
+		padding-left: 0px;
+	}
+	.comments_center_text span{
+		padding-left: 0px;
+		margin-top: 0px;
+	}
+	.comments_bottom_text span{
+		margin-top: 0px;
+	}
+	.comments .button{
+		margin-top: 40px;
+	}
+	.accept h4{
+		letter-spacing: -1.2px;
+		text-align: left;
+		padding-left: 65px;
+	}
+	.accept .col-sm-4{
+		padding: 0px;
+		margin-bottom: 30px;
+	}
+	.accept .col-sm-4 .img{
+		margin-bottom: 25px;
+	}
+	.accept span{
+		line-height: 20px;
+	}
+	.accept_right span{
+		width: 170px;
+	}
+	.accept_right span.img{
+		width: 140px;
+	}
+	.how_stitch{
+		margin-top: -90px;
+	}
+	.how_stitch .row{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.how_stitch_left{
+		padding: 0px;
+	}
+	.how_stitch_left li{
+		padding-right: 20px;
+	}
+	.how_stitch_left h4{
+		padding-left: 30px;
+		margin-left: 0px;
+	}
+	.how_stitch_left .svg1{
+		margin-right: 20px;
+		margin-left: 0px;
+	}
+	.how_stitch_left .svg2{
+		margin-right: 20px;
+		margin-left: 0px;
+	}
+	.how_stitch_left .svg3{
+		margin-right: 20px;
+		margin-left: 0px;
+	}
+	.how_stitch_left .svg4{
+		margin-right: 20px;
+		margin-left: 0px;
+	}
+	.how_stitch-right{
+		height: 200px;
+		background: url(../img/order_how_to_320.png) no-repeat 0px 0px;
+	}
+	.footer{
+		height: 1800px;
+		background: url(../img/bg_bottom_320.png) 0px 215px no-repeat;
+		background-size: 100%;
+	}
+	.footer_top_left .picture_item{
+		display: none;
+	}
+	.footer .description:before{
+		display: none;
+	}
+	.footer_top .img{
+		display: none;
+	}
+	.footer .description{
+		display: none;
+	}
+	.footer .order_form{
+		position: relative;
+		top: 220px;
+	}
+	.footer_top .h1 img{
+		display: none;
+	}
+	.footer_top_left{
+		display: none;
+	}
+	.footer_top_right{
+		padding: 0px;
+	}
+	.footer_top .h1{
+		padding: 0px;
+		font-size: 45px;
+	}
+	.footer_top h2{
+		padding: 0px;
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 50px;
+	}
+	.footer .order_item:before{
+		content: '';
+		position: absolute;
+		width: 574px;
+		height: 670px;
+		top: 780px;
+		left: -110px;
+		background: url(../img/girl_top.png) 0px 0px no-repeat;
+		background-size: 450px;
+	}
+	.footer_bottom{
+		position: relative;
+	}
+	.footer_bottom:before{
+		content: '';
+		position: absolute;
+		width: 400px;
+		height: 350px;
+		top: 940px;
+		left: 15px;
+		z-index: 9;
+		background: url(../img/pillsand_top_320.png) 0px 0px no-repeat;
+	}
+}
